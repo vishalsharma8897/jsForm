@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    font-family: 'Roboto' ,'Mono';
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:url('assets/image3.jpg');
+    font-style: italic ;
+}
+.formContainer{
+    border:2px dashed grey;
+    width:80vb;
+    padding:20px 30px;
+    background-color:white;
+}
+.formContainer h1{
+    margin-bottom:10px;
+   
+}
+.formContainer h3{
+    font-size:15px;
+    font-weight: lighter;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom:20px;
+    align-items: center;
+}
+.inputElement{
+    margin:10px;
+    padding:5px;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+}
+.inputElement input{
+    padding:10px;
+    font-size:15px;
+    margin-top: 3px;
+    width:100%;
+    border:none;
+    background-color: rgb(250, 196, 234);
+}
+
+.inputElement input::placeholder {
+    font-style: italic;
+}
+
+.inputElement input:focus{
+    outline:none;
+}
+.formButton
+{
+  width: 100%;
+}
+button{
+    width:100%;
+    padding:5px 0;
+    color:white;
+    font-size:16px;
+    background-color: rgb(42, 42, 173);
+    text-align: center;
+    cursor: pointer;
+}
+
+.forminfo{
+    text-align: center;
+}
+.forminfo span{
+   font-size:17px;
+   font-weight: light;
+}
+.logInLink{
+    font-size:15px;
+    text-decoration: none;
+}
+
+.error-message{
+    color:red;
+}
